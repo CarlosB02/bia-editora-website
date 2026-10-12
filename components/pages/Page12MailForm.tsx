@@ -6,7 +6,7 @@ import { mailto } from '@/lib/config';
 export function Page12MailForm() {
   const [nome, setNome] = useState('');
   const [email, setEmail] = useState('');
-  const [assunto, setAssunto] = useState('Encomendar livros infantis 📚');
+  const [assunto, setAssunto] = useState('Encomendar livros infantis');
   const [mensagem, setMensagem] = useState('');
   const [status, setStatus] = useState('');
 
@@ -66,11 +66,11 @@ export function Page12MailForm() {
               value={assunto}
               onChange={(e) => setAssunto(e.target.value)}
             >
-              <option>Encomendar livros infantis 📚</option>
-              <option>Visita à escola ou biblioteca 🏫</option>
-              <option>Parcerias &amp; Apoios 🤝</option>
-              <option>Imprensa &amp; Divulgação 📰</option>
-              <option>Dizer olá ou partilhar uma ideia 🎨</option>
+              <option>Encomendar livros infantis</option>
+              <option>Visita à escola ou biblioteca</option>
+              <option>Parcerias &amp; Apoios</option>
+              <option>Imprensa &amp; Divulgação</option>
+              <option>Dizer olá ou partilhar uma ideia</option>
             </select>
           </div>
           <div className="field grow rev d3">
@@ -85,7 +85,7 @@ export function Page12MailForm() {
             />
           </div>
           <button className="btn btn-o rev d4" type="submit">
-            Enviar mensagem mágica! <span aria-hidden="true">✉️</span>
+            Enviar mensagem mágica!
           </button>
           <div className="sent" id="sent" role="status">
             {status}

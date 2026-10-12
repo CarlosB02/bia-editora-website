@@ -93,7 +93,7 @@ export function Page10PartnerList({
               onGoToPage?.(12, '/contacto');
             }}
           >
-            Falar com a editora ✨
+            Falar com a editora
           </Link>
         </div>
       </div>

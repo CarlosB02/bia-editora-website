@@ -1,5 +1,5 @@
 import React from 'react';
-import { Trisk } from '../svg/Trisk';
+import { Caetra } from '../svg/Caetra';
 
 interface Page13ColophonProps {
   onGoToPage: (pageIndex: number, route?: string) => void;
@@ -14,14 +14,22 @@ export function Page13Colophon({ onGoToPage }: Page13ColophonProps) {
       </div>
       <div className="pg colophon">
         <div className="orn rev">
-          <Trisk size="100%" />
+          <Caetra size="100%" />
         </div>
         <p className="rev d1 muted">
-          Este livro-site foi desenhado com carinho, imaginação e cores quentes para todos os pequenos
+          Este livro-site foi desenhado por{' '}
+          <a
+            href="https://enimble.pt"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Enimble
+          </a>
+          , com imaginação e cores quentes para todos os pequenos
           leitores e sonhadores de Viseu e do mundo.
         </p>
         <p className="rev d2 muted">Criado com amor. Viseu, 2026.</p>
-        <div className="fin rev d3">Fim da primeira visita! ✨</div>
+        <div className="fin rev d3">Fim da primeira visita!</div>
         <button
           className="btn btn-line rev d4"
           type="button"

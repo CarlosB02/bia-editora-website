@@ -14,12 +14,10 @@ export function Page1Opening() {
           Este site <em>é mesmo</em> um livro!
         </h2>
         <p className="drop rev d2">
-          E a Bia é duas coisas mágicas ao mesmo tempo: uma história para ler e uma editora feita
-          para sonhar! Tudo começou como uma ideia na universidade, participou num concurso, venceu
-          o 1.º lugar — e esse prémio transformou esse sonho num livro verdadeiro com ilustrações incríveis.
+          E a Bia é duas coisas ao mesmo tempo: uma história para ler e uma editora de verdade! Tudo começou como uma ideia na universidade, que foi a concurso e ganhou o 1.º lugar. O prémio transformou esse sonho num livro a sério, com ilustrações incríveis.
         </p>
         <p className="rev d3">
-          Explora este livro como se o tivesses nas tuas mãos! Podes virar as páginas, descobrir segredos e saltar de capítulo em capítulo.
+          Explora este livro como se o tivesses nas mãos! Podes virar as páginas, descobrir segredos e saltar de capítulo em capítulo.
         </p>
         <div className="how rev d4">
           <div>
@@ -36,7 +34,7 @@ export function Page1Opening() {
           <span style={{ display: 'inline-flex', width: '2.4em', height: '2.4em', color: 'var(--o)' }}>
             <Caetra size="100%" />
           </span>
-          — Com carinho, a equipa Bia ✨
+          — Com carinho, a equipa Bia
         </div>
       </div>
       <div className="folio">1</div>

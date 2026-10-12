@@ -71,7 +71,7 @@ export function Page5Timeline({ currentRoute, onGoToPage }: Page5TimelineProps) 
                   onGoToPage(7, '/proximo-lancamento');
                 }}
               >
-                Espreitar! ✨
+                Espreitar!
               </Link>
             </span>
           </li>

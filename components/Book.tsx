@@ -165,12 +165,11 @@ export function Book({ initialPage = 0, initialRoute = '/' }: BookProps) {
       if (stackRRef.current) {
         stackRRef.current.style.setProperty(
           '--rs',
-          `${
-            m === 'desk'
-              ? rem > 0
-                ? Math.max(2, rem * 1.1)
-                : 0
-              : Math.max(2, (totalLeaves - 1 - f) * 0.45)
+          `${m === 'desk'
+            ? rem > 0
+              ? Math.max(2, rem * 1.1)
+              : 0
+            : Math.max(2, (totalLeaves - 1 - f) * 0.45)
           }px`
         );
       }
@@ -662,9 +661,8 @@ export function Book({ initialPage = 0, initialRoute = '/' }: BookProps) {
 
                 {/* Back Face */}
                 <div
-                  className={`face back ${leaf.backKind ? leaf.backKind : ''} ${
-                    mode !== 'desk' ? 'paper' : ''
-                  }`}
+                  className={`face back ${leaf.backKind ? leaf.backKind : ''} ${mode !== 'desk' ? 'paper' : ''
+                    }`}
                   inert={showB ? undefined : true}
                   aria-hidden={!showB}
                 >
@@ -691,7 +689,7 @@ export function Book({ initialPage = 0, initialRoute = '/' }: BookProps) {
       </main>
 
       <div className="open-hint" aria-hidden="true">
-        ✨ Toca na capa para abrir o livro! ✨
+        Toca na capa para abrir o livro!
       </div>
 
       <BottomBar

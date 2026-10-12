@@ -41,7 +41,7 @@ export function Page7Seal({ currentRoute, sealBroken, onBreakSeal }: Page7SealPr
           <WaxSeal broken={sealBroken} onBreak={onBreakSeal} />
           <div className="reveal-msg">Curioso como um bom leitor! O novo livro chega em novembro.</div>
         </div>
-        <div className="hint-tap rev d3">Toca no selo secreto com o teu dedo! 🪄</div>
+        <div className="hint-tap rev d3">Toca no selo secreto com o teu dedo!</div>
       </div>
       <div className="folio">7</div>
     </section>

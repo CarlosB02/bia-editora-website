@@ -541,29 +541,29 @@ a {
 
 h1, h2, h3 {
   font-family: var(--serif);
-  font-weight: 600;
-  line-height: 1.08;
+  font-weight: 500;
+  line-height: 1.12;
   letter-spacing: -.01em;
 }
 
 h1 {
-  font-size: max(30px, 11cqw);
+  font-size: max(23px, 8.2cqw);
   margin-bottom: .35em;
 }
 
 h2 {
-  font-size: max(26px, 8.8cqw);
-  margin-bottom: .4em;
+  font-size: max(21px, 7.4cqw);
+  margin-bottom: .38em;
 }
 
 h3 {
-  font-size: max(21px, 6.4cqw);
-  margin-bottom: .45em;
+  font-size: max(19px, 6cqw);
+  margin-bottom: .4em;
 }
 
 h1 em, h2 em, h3 em {
   font-style: italic;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--o-deep);
 }
 
@@ -1719,6 +1719,18 @@ form.mail .btn {
 
 .colophon p {
   max-width: 30em;
+}
+
+.colophon a {
+  color: var(--o-deep);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-weight: 600;
+  transition: color .2s ease, opacity .2s ease;
+}
+
+.colophon a:hover {
+  color: var(--o);
 }
 
 .colophon .fin {

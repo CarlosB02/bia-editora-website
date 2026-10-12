@@ -100,7 +100,7 @@ export function Page8Countdown() {
         <div className="spacer" />
         <div className="rev d4">
           <a className="btn btn-o" href={notifyHref}>
-            Quero saber primeiro! <span aria-hidden="true">🔔</span>
+            Quero saber primeiro!
           </a>
         </div>
       </div>

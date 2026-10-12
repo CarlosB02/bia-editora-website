@@ -30,7 +30,7 @@ export function Page4BookDetails({ currentRoute }: Page4BookDetailsProps) {
           </h2>
         )}
         <p className="lead rev d2">
-          Viseu esconde um mistério antigo... e pistas secretas pintadas há mais de 500 anos!
+          Viseu esconde um mistério antigo... e pistas secretas pintadas há cerca de 500 anos!
         </p>
         <p className="rev d3">
           Quem foi o grande mestre Grão Vasco? Uma aventura cheia de cor e imaginação que convida
@@ -42,8 +42,6 @@ export function Page4BookDetails({ currentRoute }: Page4BookDetailsProps) {
           <dd>Crianças &amp; Famílias</dd>
           <dt>Edição</dt>
           <dd>1.ª edição ilustrada</dd>
-          <dt>Origem</dt>
-          <dd>Viseu, Portugal</dd>
         </dl>
         <div className="spacer" />
         <div className="buy rev d5">
@@ -57,7 +55,7 @@ export function Page4BookDetails({ currentRoute }: Page4BookDetailsProps) {
             target={CONFIG.buyUrl !== '#' ? '_blank' : undefined}
             rel={CONFIG.buyUrl !== '#' ? 'noopener noreferrer' : undefined}
           >
-            Quero o meu livro! <span aria-hidden="true">📖</span>
+            Quero o meu livro!
           </a>
         </div>
       </div>

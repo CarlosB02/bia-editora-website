@@ -1,5 +1,4 @@
 import React from 'react';
-import { Trisk } from '../svg/Trisk';
 import { Caetra } from '../svg/Caetra';
 
 export function Page6Viriato() {
@@ -34,18 +33,45 @@ export function Page6Viriato() {
           </div>
           <div>
             <svg aria-hidden="true" viewBox="-50 -50 100 100">
-              <polygon
-                points="17,-41 41,-17 41,17 17,41 -17,41 -41,17 -41,-17 -17,-41"
+              <circle
+                cx="0"
+                cy="0"
+                r="40"
                 fill="none"
                 stroke="currentColor"
                 strokeWidth="5"
               />
             </svg>
-            <b>Octógono</b>a fortaleza da Cava de Viriato
+            <b>Círculo</b>a fortaleza da união e proteção
           </div>
           <div>
-            <Trisk size="3.2em" />
-            <b>Tríscele</b>voltinhas de imaginação sem fim
+            <svg aria-hidden="true" viewBox="-50 -50 100 100">
+              <path
+                d="M0 0 C0 -18 20 -30 34 -18 C44 -8 36 6 24 4 C16 2 16 -6 22 -8"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="5"
+                strokeLinecap="round"
+              />
+              <path
+                d="M0 0 C0 -18 20 -30 34 -18 C44 -8 36 6 24 4 C16 2 16 -6 22 -8"
+                transform="rotate(120)"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="5"
+                strokeLinecap="round"
+              />
+              <path
+                d="M0 0 C0 -18 20 -30 34 -18 C44 -8 36 6 24 4 C16 2 16 -6 22 -8"
+                transform="rotate(240)"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="5"
+                strokeLinecap="round"
+              />
+              <circle r="4" fill="currentColor" />
+            </svg>
+            <b>Símbolo</b>voltinhas de imaginação sem fim
           </div>
         </div>
       </div>
