@@ -1,0 +1,43 @@
+<svg viewBox="0 0 200 300" width="400" height="600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="52%" r="40%">
+      <stop offset="0" stop-color="#ee7a23" stop-opacity=".55"/>
+      <stop offset="1" stop-color="#ee7a23" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f3f3f"/>
+      <stop offset="1" stop-color="#0f2222"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="300" fill="url(#cbg)"/>
+  <g fill="none" stroke="#ee7a23" stroke-width="1">
+    <rect x="10" y="10" width="180" height="280"/>
+    <rect x="14" y="14" width="172" height="272" stroke-opacity=".45"/>
+  </g>
+  <!-- moldura renascentista -->
+  <g transform="translate(100 140)">
+    <circle r="70" fill="url(#glow)"/>
+    <path d="M-50 60 V-30 A50 50 0 0 1 50 -30 V60 Z" fill="#0b1a1a" stroke="#ee7a23" stroke-width="2"/>
+    <path d="M-42 56 V-28 A42 42 0 0 1 42 -28 V56 Z" fill="none" stroke="#ee7a23" stroke-opacity=".5"/>
+    <!-- silhueta da Sé de Viseu -->
+    <g fill="#ee7a23" fill-opacity=".22">
+      <rect x="-30" y="5" width="15" height="51"/>
+      <rect x="15" y="5" width="15" height="51"/>
+      <rect x="-15" y="22" width="30" height="34"/>
+      <path d="M-30 5 l7.5 -9 7.5 9z M15 5 l7.5 -9 7.5 9z"/>
+      <rect x="-33" y="2" width="21" height="3"/>
+      <rect x="12" y="2" width="21" height="3"/>
+    </g>
+    <!-- fechadura -->
+    <g fill="#ee7a23">
+      <circle cy="-8" r="9"/>
+      <path d="M-6 -3 L6 -3 L10 26 L-10 26 Z"/>
+    </g>
+    <circle cy="-8" r="3.5" fill="#0b1a1a"/>
+    <rect x="-1.5" y="-6" width="3" height="20" fill="#0b1a1a"/>
+  </g>
+  <text x="100" y="236" text-anchor="middle" font-family="'Fraunces', Georgia, serif" font-style="italic" font-size="13" fill="#f3e8d3">O Segredo de</text>
+  <text x="100" y="262" text-anchor="middle" font-family="'Fraunces', Georgia, serif" font-weight="700" font-size="25" fill="#ee7a23" letter-spacing="-.5">Grão Vasco</text>
+  <text x="100" y="40" text-anchor="middle" font-family="'IBM Plex Mono', monospace" font-size="6.5" letter-spacing="2.6" fill="#f6b47c">BIA EDITORA</text>
+  <text x="100" y="279" text-anchor="middle" font-family="'IBM Plex Mono', monospace" font-size="5" letter-spacing="2" fill="#f3e8d3" fill-opacity=".55">VISEU</text>
+</svg>
