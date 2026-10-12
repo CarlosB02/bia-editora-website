@@ -46,21 +46,21 @@ interface PageMeta {
 }
 
 const PAGE_METADATA: PageMeta[] = [
-  { label: 'Capa', ch: 0, kind: 'cover' },
+  { label: 'Capa Mágica', ch: 0, kind: 'cover' },
   { label: 'Abertura', ch: 0 },
-  { label: 'Sumário', ch: 0 },
+  { label: 'Sumário de Aventuras', ch: 0 },
   { label: 'Capítulo I · O Livro', ch: 1 },
-  { label: 'Capítulo I · O Livro', ch: 1 },
-  { label: 'Capítulo II · A História', ch: 2 },
-  { label: 'Capítulo II · A História', ch: 2 },
-  { label: 'Capítulo III · Próximo Lançamento', ch: 3 },
-  { label: 'Capítulo III · Próximo Lançamento', ch: 3 },
-  { label: 'Capítulo IV · Rede de Parceiros', ch: 4 },
-  { label: 'Capítulo IV · Rede de Parceiros', ch: 4 },
+  { label: 'Capítulo I · O Segredo', ch: 1 },
+  { label: 'Capítulo II · A Nossa História', ch: 2 },
+  { label: 'Capítulo II · O Guardião Viriato', ch: 2 },
+  { label: 'Capítulo III · O Próximo Mistério', ch: 3 },
+  { label: 'Capítulo III · Contagem Decrescente', ch: 3 },
+  { label: 'Capítulo IV · Rede de Amigos', ch: 4 },
+  { label: 'Capítulo IV · Quem nos Apoia', ch: 4 },
   { label: 'Capítulo V · Contacto', ch: 5 },
-  { label: 'Capítulo V · Contacto', ch: 5 },
-  { label: 'Colofão', ch: 6 },
-  { label: 'Guardas', ch: 6, kind: 'dark' },
+  { label: 'Capítulo V · Correio da Bia', ch: 5 },
+  { label: 'Colofão & Dedicatória', ch: 6 },
+  { label: 'Guardas · O Teu Livro', ch: 6, kind: 'dark' },
   { label: 'Contracapa', ch: 6, kind: 'cover' },
 ];
 
@@ -691,7 +691,7 @@ export function Book({ initialPage = 0, initialRoute = '/' }: BookProps) {
       </main>
 
       <div className="open-hint" aria-hidden="true">
-        Toque na capa para abrir
+        ✨ Toca na capa para abrir o livro! ✨
       </div>
 
       <BottomBar

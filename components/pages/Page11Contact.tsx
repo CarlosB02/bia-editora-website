@@ -18,16 +18,16 @@ export function Page11Contact({ currentRoute }: Page11ContactProps) {
         <div className="kicker rev">Capítulo V</div>
         {isH1 ? (
           <h1 className="rev d1">
-            Toda a boa história começa <em>com uma carta.</em>
+            Toda a aventura começa <em>com um «Olá!»</em>
           </h1>
         ) : (
           <h2 className="rev d1">
-            Toda a boa história começa <em>com uma carta.</em>
+            Toda a aventura começa <em>com um «Olá!»</em>
           </h2>
         )}
         <p className="rev d2">
-          Encomendas, parcerias, escolas, imprensa — ou apenas vontade de conversar sobre livros.
-          Escreva-nos.
+          Pais, professores, educadores, pequenos leitores e escolas: adoramos conversar sobre histórias,
+          organizar visitas e receber mensagens!
         </p>
         <ul className="contact-list rev d3" id="clist">
           <li>
@@ -35,7 +35,7 @@ export function Page11Contact({ currentRoute }: Page11ContactProps) {
             <a href={`mailto:${CONFIG.email}`}>{CONFIG.email}</a>
           </li>
           <li>
-            <small>Casa</small>
+            <small>A nossa morada</small>
             <span>{CONFIG.location}</span>
           </li>
         </ul>

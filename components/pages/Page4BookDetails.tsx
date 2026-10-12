@@ -30,18 +30,18 @@ export function Page4BookDetails({ currentRoute }: Page4BookDetailsProps) {
           </h2>
         )}
         <p className="lead rev d2">
-          Viseu guarda muitos segredos. Um deles tem cinco séculos e assinatura de pintor.
+          Viseu esconde um mistério antigo... e pistas secretas pintadas há mais de 500 anos!
         </p>
         <p className="rev d3">
-          Uma história que parte da obra de Vasco Fernandes — o Grão Vasco, mestre da pintura do
-          Renascimento português — para percorrer as ruas, as pedras e as memórias da cidade. Para
-          ler devagar, de lupa na mão, e voltar a olhar para Viseu com outros olhos.
+          Quem foi o grande mestre Grão Vasco? Uma aventura cheia de cor e imaginação que convida
+          os pequenos detetives a percorrer as ruas históricas, decifrar enigmas e olhar para
+          a cidade com olhos cheios de curiosidade. Perfeito para ler e partilhar em família!
         </p>
         <dl className="facts rev d4">
-          <dt>Editora</dt>
-          <dd>Bia Editora</dd>
+          <dt>Leitores</dt>
+          <dd>Crianças &amp; Famílias</dd>
           <dt>Edição</dt>
-          <dd>1.ª edição</dd>
+          <dd>1.ª edição ilustrada</dd>
           <dt>Origem</dt>
           <dd>Viseu, Portugal</dd>
         </dl>
@@ -57,7 +57,7 @@ export function Page4BookDetails({ currentRoute }: Page4BookDetailsProps) {
             target={CONFIG.buyUrl !== '#' ? '_blank' : undefined}
             rel={CONFIG.buyUrl !== '#' ? 'noopener noreferrer' : undefined}
           >
-            Comprar o livro <span aria-hidden="true">→</span>
+            Quero o meu livro! <span aria-hidden="true">📖</span>
           </a>
         </div>
       </div>

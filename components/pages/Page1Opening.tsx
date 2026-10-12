@@ -9,34 +9,34 @@ export function Page1Opening() {
         <span>Abertura</span>
       </div>
       <div className="pg">
-        <div className="kicker rev">Abertura</div>
+        <div className="kicker rev">Bem-vindos!</div>
         <h2 className="rev d1">
-          Este site <em>é</em> um livro.
+          Este site <em>é mesmo</em> um livro!
         </h2>
         <p className="drop rev d2">
-          E a Bia é duas coisas ao mesmo tempo: um livro e uma editora. Nasceu como projeto
-          universitário, foi a concurso, venceu — e os apoios que vieram com o prémio
-          transformaram uma ideia de sala de aula em páginas impressas.
+          E a Bia é duas coisas mágicas ao mesmo tempo: uma história para ler e uma editora feita
+          para sonhar! Tudo começou como uma ideia na universidade, participou num concurso, venceu
+          o 1.º lugar — e esse prémio transformou esse sonho num livro verdadeiro com ilustrações incríveis.
         </p>
         <p className="rev d3">
-          Leia-o como um livro a sério. Folheie, volte atrás, salte capítulos.
+          Explora este livro como se o tivesses nas tuas mãos! Podes virar as páginas, descobrir segredos e saltar de capítulo em capítulo.
         </p>
         <div className="how rev d4">
           <div>
-            <b>⟷</b>Arraste o canto da página
+            <b>⟷</b>Puxa o canto da página
           </div>
           <div>
-            <b>← →</b>Use as setas do teclado
+            <b>← →</b>Usa as setas do teclado
           </div>
           <div>
-            <b>I–V</b>Salte pelos marcadores
+            <b>I–V</b>Salta para cada aventura
           </div>
         </div>
         <div className="sig rev d5">
           <span style={{ display: 'inline-flex', width: '2.4em', height: '2.4em', color: 'var(--o)' }}>
             <Caetra size="100%" />
           </span>
-          — A equipa Bia
+          — Com carinho, a equipa Bia ✨
         </div>
       </div>
       <div className="folio">1</div>

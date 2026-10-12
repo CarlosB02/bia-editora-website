@@ -1,22 +1,16 @@
-import { Fraunces, Newsreader, IBM_Plex_Mono } from 'next/font/google';
+import { Fredoka, Nunito } from 'next/font/google';
 
-export const fraunces = Fraunces({
+export const fredoka = Fredoka({
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-fraunces',
-  axes: ['opsz'],
+  variable: '--font-fredoka',
+  weight: ['400', '500', '600', '700'],
 });
 
-export const newsreader = Newsreader({
+export const nunito = Nunito({
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-newsreader',
-  axes: ['opsz'],
+  variable: '--font-nunito',
+  weight: ['400', '600', '700', '800'],
 });
 
-export const ibmPlexMono = IBM_Plex_Mono({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-ibm-plex-mono',
-  weight: ['400', '500'],
-});

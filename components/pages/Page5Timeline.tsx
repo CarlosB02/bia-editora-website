@@ -19,51 +19,50 @@ export function Page5Timeline({ currentRoute, onGoToPage }: Page5TimelineProps) 
         <div className="kicker rev">Capítulo II</div>
         {isH1 ? (
           <h1 className="rev d1">
-            Da sala de aula <em>ao prelo</em>
+            Da sala de aula <em>às tuas mãos</em>
           </h1>
         ) : (
           <h2 className="rev d1">
-            Da sala de aula <em>ao prelo</em>
+            Da sala de aula <em>às tuas mãos</em>
           </h2>
         )}
         <ol className="tl">
           <li className="rev d1">
             <b>
-              <i>I</i>A ideia
+              <i>I</i>Uma ideia curiosa
             </b>
             <span>
-              Um projeto universitário com uma pergunta teimosa: e se um livro pudesse ser, ao
-              mesmo tempo, uma editora?
+              E se um trabalho de estudantes pudesse virar um livro infantil e uma editora a sério?
             </span>
           </li>
           <li className="rev d2">
             <b>
-              <i>II</i>O concurso
+              <i>II</i>O grande concurso
             </b>
-            <span>O projeto saiu da universidade e foi a concurso. E venceu.</span>
+            <span>Apresentámos o projeto a concurso... e vencemos o 1.º lugar!</span>
           </li>
           <li className="rev d3">
             <b>
-              <i>III</i>Os apoios
+              <i>III</i>A magia acontece
             </b>
             <span>
-              Com a vitória vieram apoios — e a responsabilidade de passar do papel ao prelo.
+              Com muito apoio e carinho, os textos e ilustrações ganharam cores e saltaram para o papel.
             </span>
           </li>
           <li className="rev d4">
             <b>
-              <i>IV</i>O primeiro livro
+              <i>IV</i>O primeiro livro!
             </b>
             <span>
-              <em>O Segredo de Grão Vasco</em> chega às mãos dos leitores.
+              <em>O Segredo de Grão Vasco</em> chegou às livrarias e às mãos dos pequenos exploradores.
             </span>
           </li>
           <li className="now rev d5">
             <b>
-              <i>V</i>O que vem
+              <i>V</i>O que vem aí
             </b>
             <span>
-              Novembro abre o capítulo seguinte.{' '}
+              Em novembro chega uma nova aventura secreta!{' '}
               <Link
                 href="/proximo-lancamento"
                 className="link"
@@ -72,7 +71,7 @@ export function Page5Timeline({ currentRoute, onGoToPage }: Page5TimelineProps) 
                   onGoToPage(7, '/proximo-lancamento');
                 }}
               >
-                Ver
+                Espreitar! ✨
               </Link>
             </span>
           </li>

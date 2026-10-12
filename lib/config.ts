@@ -17,7 +17,7 @@ export const CONFIG: BookConfig = {
   email: "ola@biaeditora.pt", // email de contacto
   launch: "2026-11-09T00:00:00Z", // segunda semana de novembro (seg., 9 nov. de 2026)
   title: "Bia Editora",
-  subtitle: "Livro & Editora",
+  subtitle: "Livros Infantis & Aventuras",
   bookTitle: "O Segredo de Grão Vasco",
   publisher: "Bia Editora",
   location: "Viseu, Portugal",

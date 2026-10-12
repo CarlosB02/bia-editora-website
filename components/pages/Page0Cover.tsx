@@ -25,9 +25,9 @@ export function Page0Cover({ currentRoute = '/', onOpen }: Page0CoverProps) {
             onOpen?.();
           }
         }}
-        aria-label="Abrir o livro Bia Editora"
+        aria-label="Abrir o livro mágico da Bia Editora"
       >
-        <div className="cover-top">Livro &amp; Editora</div>
+        <div className="cover-top">Livro Infantil &amp; Editora</div>
         <div className="cover-emblem">
           <Caetra size="100%" />
         </div>
@@ -43,8 +43,8 @@ export function Page0Cover({ currentRoute = '/', onOpen }: Page0CoverProps) {
           </h2>
         )}
         <div className="cover-foot">
-          Transformamos Património em Histórias
-          <b>Viseu · MMXXVI</b>
+          Grandes Aventuras para Pequenos Leitores
+          <b>Viseu · 2026</b>
         </div>
       </div>
     </section>

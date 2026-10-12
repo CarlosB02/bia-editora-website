@@ -26,10 +26,9 @@ export function Page15BackCover({ onFlipPrev }: Page15BackCoverProps) {
           <Caetra size="100%" />
         </div>
         <p>
-          Uma editora nascida de um trabalho universitário, com escudo de Viriato e paciência de
-          pintor.
+          Histórias ilustradas que transformam o património em aventuras inesquecíveis para crianças e famílias.
         </p>
-        <small>Bia Editora · Livro &amp; Editora</small>
+        <small>Bia Editora · Livros para Pequenos Sonhadores</small>
       </div>
     </section>
   );

@@ -41,7 +41,7 @@ export function Page8Countdown() {
         <span>Bia Editora</span>
       </div>
       <div className="pg">
-        <div className="kicker rev">Faltam</div>
+        <div className="kicker rev">Contagem para a nova história</div>
         <div className="count rev d1" id="count" aria-live="off">
           <div>
             <b data-u="d">{countdown.d}</b>
@@ -61,11 +61,11 @@ export function Page8Countdown() {
           </div>
         </div>
         <h3 className="rev d2">
-          Novembro, <em>segunda semana.</em>
+          Chega em novembro, <em>falta pouco!</em>
         </h3>
         <p className="rev d2">
-          O segundo título da Bia Editora fica selado até lá. Sabemos que vai gostar — só não lhe
-          podemos dizer ainda de quê.
+          O segundo livro da Bia Editora está a ser desenhado em segredo. Prometemos muitas cores,
+          personagens divertidas e aventuras para pequenos leitores!
         </p>
         <div className="cal rev d3" aria-label="Calendário de novembro de 2026">
           <span className="h">S</span>
@@ -100,7 +100,7 @@ export function Page8Countdown() {
         <div className="spacer" />
         <div className="rev d4">
           <a className="btn btn-o" href={notifyHref}>
-            Quero ser avisado <span aria-hidden="true">✦</span>
+            Quero saber primeiro! <span aria-hidden="true">🔔</span>
           </a>
         </div>
       </div>

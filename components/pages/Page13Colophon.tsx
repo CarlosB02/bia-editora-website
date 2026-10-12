@@ -17,18 +17,17 @@ export function Page13Colophon({ onGoToPage }: Page13ColophonProps) {
           <Trisk size="100%" />
         </div>
         <p className="rev d1 muted">
-          Este livro-site foi composto em Fraunces e Newsreader, desenhado à volta de um escudo
-          lusitano e de uma única cor:{' '}
-          <span style={{ color: 'var(--o-deep)' }}>#ee7a23</span>.
+          Este livro-site foi desenhado com carinho, imaginação e cores quentes para todos os pequenos
+          leitores e sonhadores de Viseu e do mundo.
         </p>
-        <p className="rev d2 muted">Impresso em pixels. Viseu, outono de 2026.</p>
-        <div className="fin rev d3">Fim do primeiro volume.</div>
+        <p className="rev d2 muted">Criado com amor. Viseu, 2026.</p>
+        <div className="fin rev d3">Fim da primeira visita! ✨</div>
         <button
           className="btn btn-line rev d4"
           type="button"
           onClick={() => onGoToPage(0, '/')}
         >
-          ↺ Voltar à capa
+          ↺ Voltar à capa do livro
         </button>
       </div>
       <div className="folio">13</div>

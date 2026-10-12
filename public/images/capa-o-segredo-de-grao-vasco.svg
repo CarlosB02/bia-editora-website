@@ -36,8 +36,8 @@
     <circle cy="-8" r="3.5" fill="#0b1a1a"/>
     <rect x="-1.5" y="-6" width="3" height="20" fill="#0b1a1a"/>
   </g>
-  <text x="100" y="236" text-anchor="middle" font-family="'Fraunces', Georgia, serif" font-style="italic" font-size="13" fill="#f3e8d3">O Segredo de</text>
-  <text x="100" y="262" text-anchor="middle" font-family="'Fraunces', Georgia, serif" font-weight="700" font-size="25" fill="#ee7a23" letter-spacing="-.5">Grão Vasco</text>
-  <text x="100" y="40" text-anchor="middle" font-family="'IBM Plex Mono', monospace" font-size="6.5" letter-spacing="2.6" fill="#f6b47c">BIA EDITORA</text>
-  <text x="100" y="279" text-anchor="middle" font-family="'IBM Plex Mono', monospace" font-size="5" letter-spacing="2" fill="#f3e8d3" fill-opacity=".55">VISEU</text>
+  <text x="100" y="235" text-anchor="middle" font-family="'Fredoka', 'Nunito', sans-serif" font-weight="600" font-size="13.5" fill="#fffdf8">O Segredo de</text>
+  <text x="100" y="262" text-anchor="middle" font-family="'Fredoka', 'Nunito', sans-serif" font-weight="700" font-size="24" fill="#ff7326" letter-spacing="-.3">Grão Vasco</text>
+  <text x="100" y="40" text-anchor="middle" font-family="'Fredoka', 'Nunito', sans-serif" font-size="7.5" font-weight="600" letter-spacing="2.6" fill="#ffbe7a">BIA EDITORA</text>
+  <text x="100" y="280" text-anchor="middle" font-family="'Nunito', sans-serif" font-size="6" font-weight="700" letter-spacing="1.8" fill="#fffdf8" fill-opacity=".75">LIVRO INFANTIL · VISEU</text>
 </svg>

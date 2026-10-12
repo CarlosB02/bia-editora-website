@@ -6,7 +6,7 @@ import { mailto } from '@/lib/config';
 export function Page12MailForm() {
   const [nome, setNome] = useState('');
   const [email, setEmail] = useState('');
-  const [assunto, setAssunto] = useState('Comprar livros');
+  const [assunto, setAssunto] = useState('Encomendar livros infantis 📚');
   const [mensagem, setMensagem] = useState('');
   const [status, setStatus] = useState('');
 
@@ -21,7 +21,7 @@ export function Page12MailForm() {
     if (typeof window !== 'undefined') {
       window.location.href = mailUrl;
     }
-    setStatus('Carta selada. A abrir o seu email…');
+    setStatus('Carta selada com carinho! A abrir o teu email…');
   }
 
   return (
@@ -32,24 +32,26 @@ export function Page12MailForm() {
       </div>
       <div className="pg">
         <form className="mail" id="form" onSubmit={handleSubmit} noValidate>
-          <div className="kicker rev">Carta à editora</div>
+          <div className="kicker rev">Correio da Bia</div>
           <div className="field rev d1">
-            <label htmlFor="f-n">O seu nome</label>
+            <label htmlFor="f-n">O teu nome (ou pais / escola)</label>
             <input
               id="f-n"
               name="n"
               autoComplete="name"
+              placeholder="Ex: Maria ou Escola Básica..."
               value={nome}
               onChange={(e) => setNome(e.target.value)}
               required
             />
           </div>
           <div className="field rev d1">
-            <label htmlFor="f-e">Email</label>
+            <label htmlFor="f-e">Email de contacto</label>
             <input
               id="f-e"
               name="e"
               type="email"
+              placeholder="nome@exemplo.pt"
               autoComplete="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -64,25 +66,26 @@ export function Page12MailForm() {
               value={assunto}
               onChange={(e) => setAssunto(e.target.value)}
             >
-              <option>Comprar livros</option>
-              <option>Parcerias</option>
-              <option>Escolas &amp; bibliotecas</option>
-              <option>Imprensa</option>
-              <option>Outro</option>
+              <option>Encomendar livros infantis 📚</option>
+              <option>Visita à escola ou biblioteca 🏫</option>
+              <option>Parcerias &amp; Apoios 🤝</option>
+              <option>Imprensa &amp; Divulgação 📰</option>
+              <option>Dizer olá ou partilhar uma ideia 🎨</option>
             </select>
           </div>
           <div className="field grow rev d3">
-            <label htmlFor="f-m">Mensagem</label>
+            <label htmlFor="f-m">A tua mensagem</label>
             <textarea
               id="f-m"
               name="m"
+              placeholder="Escreve aqui o que nos queres contar..."
               value={mensagem}
               onChange={(e) => setMensagem(e.target.value)}
               required
             />
           </div>
           <button className="btn btn-o rev d4" type="submit">
-            Selar e enviar <span aria-hidden="true">→</span>
+            Enviar mensagem mágica! <span aria-hidden="true">✉️</span>
           </button>
           <div className="sent" id="sent" role="status">
             {status}

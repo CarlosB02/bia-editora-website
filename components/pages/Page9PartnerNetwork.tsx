@@ -28,15 +28,15 @@ export function Page9PartnerNetwork({
         <div className="kicker rev">Capítulo IV</div>
         {isH1 ? (
           <h1 className="rev d1">
-            Rede de <em>parceiros</em>
+            Rede de <em>amigos</em>
           </h1>
         ) : (
           <h2 className="rev d1">
-            Rede de <em>parceiros</em>
+            Rede de <em>amigos</em>
           </h2>
         )}
         <p className="rev d2">
-          Uma editora pequena não anda sozinha. Viriato também não andava.
+          Nenhum herói viaja sozinho! Olha só quem nos ajuda a levar histórias e livros a todas as crianças.
         </p>
         <div className="net rev d3">
           <PartnerNetworkSvg

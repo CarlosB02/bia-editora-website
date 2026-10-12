@@ -23,14 +23,14 @@ export function Page3Book3D({ onFlipNext }: Page3Book3DProps) {
             aria-label="Capa do livro O Segredo de Grão Vasco"
             role="img"
             onClick={onFlipNext}
-            title="Clique para ver os detalhes da obra"
+            title="Clica para abrir os detalhes deste livro mágico"
           >
             <div className="bb" />
             <div className="bs" />
             <div className="bf">
               <Image
                 src="/images/capa-o-segredo-de-grao-vasco.svg"
-                alt="Capa do livro O Segredo de Grão Vasco — Bia Editora, Viseu"
+                alt="Capa do livro infantil O Segredo de Grão Vasco — Bia Editora, Viseu"
                 width={200}
                 height={300}
                 priority
@@ -39,7 +39,7 @@ export function Page3Book3D({ onFlipNext }: Page3Book3DProps) {
             </div>
           </div>
         </div>
-        <div className="tag rev d3">O primeiro título da Bia Editora</div>
+        <div className="tag rev d3">A primeira aventura ilustrada da Bia Editora ✨</div>
       </div>
       <div className="folio">3</div>
     </section>

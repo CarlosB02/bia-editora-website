@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import './globals.css';
-import { fraunces, newsreader, ibmPlexMono } from './fonts';
+import { fredoka, nunito } from './fonts';
 import { CONFIG } from '@/lib/config';
 import {
   getOrganizationSchema,
@@ -12,11 +12,11 @@ import { NoScriptReader } from '@/components/NoScriptReader';
 export const metadata: Metadata = {
   metadataBase: new URL(CONFIG.siteUrl),
   title: {
-    default: 'Bia Editora — Livro & Editora',
+    default: 'Bia Editora — Livros Infantis & Aventuras',
     template: '%s — Bia Editora',
   },
   description:
-    'Bia Editora: um livro e uma editora. O primeiro título é «O Segredo de Grão Vasco». Viseu, Portugal.',
+    'Bia Editora: livros infantis cheios de magia, imaginação e património. O primeiro título é «O Segredo de Grão Vasco». Viseu, Portugal.',
   applicationName: 'Bia Editora',
   authors: [{ name: 'Bia Editora' }],
   generator: 'Next.js',
@@ -39,16 +39,16 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'pt_PT',
     url: CONFIG.siteUrl,
-    title: 'Bia Editora — Livro & Editora',
+    title: 'Bia Editora — Livros Infantis & Aventuras',
     description:
-      'Bia Editora: um livro e uma editora. O primeiro título é «O Segredo de Grão Vasco». Viseu, Portugal.',
+      'Bia Editora: livros infantis cheios de magia, imaginação e património. O primeiro título é «O Segredo de Grão Vasco». Viseu, Portugal.',
     siteName: 'Bia Editora',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Bia Editora — Livro & Editora',
+    title: 'Bia Editora — Livros Infantis & Aventuras',
     description:
-      'Bia Editora: um livro e uma editora. O primeiro título é «O Segredo de Grão Vasco».',
+      'Bia Editora: livros infantis cheios de magia, imaginação e património. O primeiro título é «O Segredo de Grão Vasco».',
   },
   icons: {
     icon: '/icon.svg',
@@ -75,7 +75,7 @@ export default function RootLayout({
   return (
     <html
       lang="pt-PT"
-      className={`${fraunces.variable} ${newsreader.variable} ${ibmPlexMono.variable}`}
+      className={`${fredoka.variable} ${nunito.variable}`}
     >
       <head>
         <script

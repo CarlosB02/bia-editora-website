@@ -24,24 +24,24 @@ export function Page7Seal({ currentRoute, sealBroken, onBreakSeal }: Page7SealPr
         <div className="kicker rev">Capítulo III</div>
         {isH1 ? (
           <h1 className="rev d1">
-            O próximo <em>está selado.</em>
+            Um mistério <em>bem guardado!</em>
           </h1>
         ) : (
           <h2 className="rev d1">
-            O próximo <em>está selado.</em>
+            Um mistério <em>bem guardado!</em>
           </h2>
         )}
         <div className="letter rev d2">
-          <small>Bia Editora · N.º 2</small>
+          <small>Bia Editora · Livro N.º 2</small>
           <div className="redact" aria-label="Título por revelar">
             <i style={{ width: sealBroken ? '55%' : '72%' }} />
             <i style={{ width: sealBroken ? '30%' : '48%' }} />
           </div>
-          <div className="when">segunda semana de novembro</div>
+          <div className="when">Segunda semana de novembro de 2026</div>
           <WaxSeal broken={sealBroken} onBreak={onBreakSeal} />
-          <div className="reveal-msg">Achou que era assim tão fácil? O título chega em novembro.</div>
+          <div className="reveal-msg">Curioso como um bom leitor! O novo livro chega em novembro.</div>
         </div>
-        <div className="hint-tap rev d3">Toque no selo, se tiver coragem</div>
+        <div className="hint-tap rev d3">Toca no selo secreto com o teu dedo! 🪄</div>
       </div>
       <div className="folio">7</div>
     </section>

@@ -3,16 +3,16 @@ import { Book } from '@/components/Book';
 import { getBreadcrumbSchema } from '@/lib/jsonLd';
 
 export const metadata: Metadata = {
-  title: 'Bia Editora — Livro & Editora',
+  title: 'Bia Editora — Livros Infantis & Aventuras',
   description:
-    'Bia Editora: um livro e uma editora. O primeiro título é «O Segredo de Grão Vasco». Viseu, Portugal.',
+    'Bia Editora: livros infantis cheios de magia, imaginação e património. O primeiro título é «O Segredo de Grão Vasco». Viseu, Portugal.',
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: 'Bia Editora — Livro & Editora',
+    title: 'Bia Editora — Livros Infantis & Aventuras',
     description:
-      'Bia Editora: um livro e uma editora. O primeiro título é «O Segredo de Grão Vasco». Viseu, Portugal.',
+      'Bia Editora: livros infantis cheios de magia, imaginação e património. O primeiro título é «O Segredo de Grão Vasco». Viseu, Portugal.',
     url: '/',
   },
 };

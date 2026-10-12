@@ -7,11 +7,11 @@ interface Page2TocProps {
 
 export function Page2Toc({ onGoToPage }: Page2TocProps) {
   const chapters = [
-    { num: 'I', title: 'O Livro', pageNum: 'p. 3', targetPage: 3, href: '/o-livro' },
-    { num: 'II', title: 'A História', pageNum: 'p. 5', targetPage: 5, href: '/historia' },
-    { num: 'III', title: 'Próximo Lançamento', pageNum: 'p. 7', targetPage: 7, href: '/proximo-lancamento' },
-    { num: 'IV', title: 'Rede de Parceiros', pageNum: 'p. 9', targetPage: 9, href: '/parceiros' },
-    { num: 'V', title: 'Contacto', pageNum: 'p. 11', targetPage: 11, href: '/contacto' },
+    { num: 'I', title: 'O Livro dos Segredos', pageNum: 'p. 3', targetPage: 3, href: '/o-livro' },
+    { num: 'II', title: 'Como Tudo Começou', pageNum: 'p. 5', targetPage: 5, href: '/historia' },
+    { num: 'III', title: 'O Próximo Mistério', pageNum: 'p. 7', targetPage: 7, href: '/proximo-lancamento' },
+    { num: 'IV', title: 'Os Nossos Amigos', pageNum: 'p. 9', targetPage: 9, href: '/parceiros' },
+    { num: 'V', title: 'Envia uma Carta!', pageNum: 'p. 11', targetPage: 11, href: '/contacto' },
   ];
 
   return (
@@ -21,8 +21,8 @@ export function Page2Toc({ onGoToPage }: Page2TocProps) {
         <span>Bia Editora</span>
       </div>
       <div className="pg">
-        <div className="kicker rev">Índice</div>
-        <h2 className="rev d1">Sumário</h2>
+        <div className="kicker rev">O teu mapa</div>
+        <h2 className="rev d1">Índice de Aventuras</h2>
         <ol className="toc">
           {chapters.map((ch, idx) => (
             <li key={ch.num} className={`rev d${idx + 1}`}>
@@ -43,7 +43,7 @@ export function Page2Toc({ onGoToPage }: Page2TocProps) {
         </ol>
         <div className="spacer" />
         <p className="muted rev d5" style={{ fontStyle: 'italic', margin: '1em 0 0' }}>
-          Clique num capítulo e veja as páginas a correr.
+          Clica num capítulo e vê as páginas a voar! 🕊️
         </p>
       </div>
       <div className="folio">2</div>

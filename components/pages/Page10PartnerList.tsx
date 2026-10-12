@@ -62,7 +62,7 @@ export function Page10PartnerList({
         <span>Bia Editora</span>
       </div>
       <div className="pg">
-        <div className="kicker rev">Quem nos acompanha</div>
+        <div className="kicker rev">Quem apoia esta aventura</div>
         <div className="partners-grid" id="pgrid">
           {PARTNERS_DATA.map((partner, i) => (
             <div
@@ -84,7 +84,7 @@ export function Page10PartnerList({
           ))}
         </div>
         <div className="join rev d4">
-          <p>Quer fazer parte da rede?</p>
+          <p>Quer apoiar a Bia ou levar os livros à sua escola?</p>
           <Link
             href="/contacto"
             className="btn btn-line"
@@ -93,7 +93,7 @@ export function Page10PartnerList({
               onGoToPage?.(12, '/contacto');
             }}
           >
-            Falar connosco
+            Falar com a editora ✨
           </Link>
         </div>
       </div>
